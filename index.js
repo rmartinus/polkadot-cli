@@ -1,7 +1,7 @@
 const { ApiPromise, WsProvider } = require('@polkadot/api');
 
 async function main() {
-    console.log("Getting the latest block...")
+    console.log("Getting the latest block...");
     const provider = new WsProvider('wss://rpc.polkadot.io');
     const api = await ApiPromise.create({ provider });
 
@@ -14,7 +14,7 @@ async function main() {
 
     console.log(`Chain ${chain}`);
     console.log(`Node name ${name}`);
-    console.log(`Node version ${version}`)
+    console.log(`Node version ${version}`);
     console.log(`Block ${block}`);
 }
 
