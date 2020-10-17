@@ -1,0 +1,27 @@
+{
+  "name": "polkadot-cli",
+  "version": "1.0.0",
+  "description": "A command line utility that displays information about the latest block on Polkadot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmartinus/polkadot-cli.git"
+  },
+  "keywords": [
+    "polkadot",
+    "blockchain",
+    "cli"
+  ],
+  "author": "rmartinus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rmartinus/polkadot-cli/issues"
+  },
+  "homepage": "https://github.com/rmartinus/polkadot-cli#readme",
+  "dependencies": {
+    "@polkadot/api": "^2.2.1"
+  }
+}
